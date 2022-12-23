@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav ul{
+    height: 50px;
+    border-top-right-radius: 75%;
+   
+    background-image:linear-gradient(90deg, rgba(9,9,121,1) 11%, rgba(0,212,255,0.9223039557619923) 100%);
+    padding: 0;
+    margin: 0;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    transition: all 1.2s;
+    
+    
+
+}
+nav ul li a:hover{
+    background-image: linear-gradient(217deg, rgba(12,159,171,0.7626400902157738) 0%, rgba(203,234,240,1) 100%);
+    height: 100%;
+    
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    height: 50px;
+    margin-right:15px;
+    color: black;
+    font-size:1.5rem;
+    line-height:50px;
+    
+    
+}
+nav ul li:first-child{
+    padding-right: 20px;
+    margin: left 10px;
+    font-size: 2rem;
+    font-family: 'Rubik Moonrocks', cursive;
+    color: rgba(83, 102, 251, 0.899);
+}
